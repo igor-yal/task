@@ -4,7 +4,7 @@
 	class Shop {
 		public $name;
 		public $address;
-		public $products = array();
+		private $products = array();
 		
 		public function __construct ( $name, $address, $products = null )
 		{
